@@ -5,6 +5,8 @@ Also, I love to make public projects so that others can see what my creations do
 
 ![Slushi GIF](https://github.com/Slushi-Github/Slushi-Github/blob/main/SlushiGif.gif)
 
+[![Ko-fi link](https://github.com/Slushi-Github/Slushi-Github/blob/main/kofiButton.png)](https://ko-fi.com/slushikofi)
+
 ## About Me:
 I started with the development in programming using [HaxeFlixel](https://haxeflixel.com/) in 2022, and so far I'm still strongly into Haxe language hehe.
 
