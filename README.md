@@ -43,5 +43,5 @@ Check out my bio, it doesn't say much more than what's here, but eh, I like havi
 - [FNF' V-Slice on Nintendo Switch!](https://github.com/FunkinNXTeam/Funkin)
 - And in a lot of other minor things in the FNF' community.
 
-<img src="./NikoOneShotGif.gif" width="10%">
+<img src="./NikoOneShotGif.gif" width="25%">
 <sup><sub>Nikooo :3</sub></sup>
