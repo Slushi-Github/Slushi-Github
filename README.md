@@ -18,9 +18,14 @@ Check out my bio, it doesn't say much more than what's here, but eh, I like havi
 ![Slushi-Github's GitHub stats](https://github-readme-stats-extended.vercel.app/api?username=Slushi-Github&show_icons=true&theme=holi)
 
 ## Projects I'm Proud Of:
+
+They are listed (as much as possible, except for the consoles) in order based on their creation dates heh.
+
 [Slushi Engine](https://github.com/Slushi-Github/Slushi-Engine): It is really my first project with which I started in the world of programming, it is a FNF' engine modified from another engine ([SC Engine](https://github.com/EdwhakKB/SC-SP-ENGINE)), but it adds the possibility for a modder to make modcharts, not only to the [NotITG](https://www.noti.tg) style, but also to the game window and even to Microsoft Windows elements (Desktop icons, task bar...), in a native way through the Lua API that the engine has.
 
 [Slushi Windows API](https://github.com/Slushi-Github/SL-Windows-API): This is all the C++ code used in the Slushi Engine, but it’s completely standalone and packaged as a Haxe library for use in your projects, including new features and improvements not found in the Slushi Engine.
+
+----
 
 Haxe on consoles: Literally that, my ports, or at least my attempts to get Haxe to run somehow on a video game console!
 
@@ -35,7 +40,7 @@ Haxe on consoles: Literally that, my ports, or at least my attempts to get Haxe 
 **Nintendo Switch:**
 - [HaxeNXCompiler](https://github.com/Slushi-Github/HaxeNXCompiler): Is like HxCompileU but more complex and complete. This project is based on a [fork of HXCPP](https://github.com/Slushi-Github/hxcpp-nx) that can run on a Nintendo Switch, providing much greater stability and freedom than [Reflaxe/C++](https://github.com/SomeRanDev/reflaxe.CPP). HaxeNXCompiler ended up being so large that I had to switch to an XML project file, as used by [Lime](https://lime.openfl.org)/[OpenFL](https://www.openfl.org) projects, when I was rewriting the utility.
   - hxcpp-nx: Its the fork of hxcpp to work on a Nintendo Switch using the 
-  - [Vupx Engine](https://github.com/Slushi-Github/Vupx-Engine): This is the largest project I have done to date. It is my framework engine made with OpenGL 4.6 and Haxe for the Nintendo Switch, drawing a little from my experience with Leafy Engine, along with the advantage that this project used HXCPP instead of [Reflaxe/C++](https://github.com/SomeRanDev/reflaxe.CPP), which provides me with much more stability. Of course, it is still inspired by [HaxeFlixel](https://haxeflixel.com), but also with a slightly more personal structure.
+  - [Vupx Engine](https://github.com/Slushi-Github/Vupx-Engine): This is the largest project I have done to date. It is my framework engine made with OpenGL 4.3 and Haxe for the Nintendo Switch, drawing a little from my experience with Leafy Engine, along with the advantage that this project used HXCPP instead of [Reflaxe/C++](https://github.com/SomeRanDev/reflaxe.CPP), which provides me with much more stability. Of course, it is still inspired by [HaxeFlixel](https://haxeflixel.com), but also with a slightly more personal structure.
   - [Lime-NX](https://github.com/Slushi-Github/lime-nx): What I wanted and tried so hard to achieve in the early days of HaxeNXCompiler, [Lime](https://lime.openfl.org) on the Switch using homebrew, and finally succeeded, you can now use your [OpenFL](https://www.openfl.org) projects and even [HaxeFlixel](https://haxeflixel.com) on the Nintendo Switch!
   - [Switch Funkin'](https://github.com/Slushi-Github/Switch-Funkin): Having successfully made [HaxeFlixel](https://haxeflixel.com) work on the Nintendo Switch, don't miss the opportunity to enjoy the real [Friday Night Funkin'](https://github.com/FunkinCrew/Funkin) experience on your console. This FNF' engine based on [Psych Engine 1.0.4](https://github.com/ShadowMario/FNF-PsychEngine) now allows you to enjoy the full [FNF'](https://github.com/FunkinCrew/Funkin) experience on your Switch, with support for mods, HScript, and even Lua!
   - [Flixel-Switch](https://github.com/Slushi-Github/flixel-switch): A small [HaxeFlixel](https://haxeflixel.com) library that incorporates some code from [Vupx Engine](https://github.com/Slushi-Github/Vupx-Engine), allowing you to use certain features of [hx_libnx](https://github.com/Slushi-Github/hx_libnx) to interact with the Nintendo Switch more easily from [HaxeFlixel](https://haxeflixel.com).
@@ -44,6 +49,11 @@ Haxe on consoles: Literally that, my ports, or at least my attempts to get Haxe 
  
 **Nintendo DS(i):**
 - [A Poor Imitiation DS](https://github.com/Slushi-Github/APoorImitiation-DS): This is a project where I tried to create a music player that would play the song ["A Poor Imitation"](https://youtu.be/2SZ-_pag1v0) by [S-Saph/S-Ame](https://www.youtube.com/@a-saphmusicofficial) from their album ["IGNORANT BLISS"](https://a-saph.bandcamp.com/album/ignorant-bliss) on a Nintendo DS. It's built using [BlocksDS](https://blocksds.skylyrac.net/) and uses [Reflaxe/C++](https://github.com/SomeRanDev/reflaxe.CPP) to run Haxe on it. It's really a pretty silly project, but it was fun.
+
+----
+
+[SlushiBio](https://slushi-github.github.io/SlushiBio): This is a simple personal bio page based on [Matt Cromwell](https://github.com/mathetos)'s 
+This is my personal bio using [Matt Cromwell](https://github.com/mathetos)'s ["Connect" project (bio site)](https://github.com/mathetos/mathetos.github.io), I've modified it slightly to suit my personal style heh.
 
 [HxNotITG](https://github.com/Slushi-Github/HxNotITG): A project where I wanted to use Haxe to interact with [NotITG](https://www.noti.tg) via Lua, in order to create modcharts using Haxe! To achieve this, I used [Reflaxe/Lua](https://github.com/Davvex87/reflaxe.lua) this time. It’s somewhat functional, but above all, the API needs to be expanded to allow more interaction with the game.
 
@@ -60,7 +70,10 @@ Haxe on consoles: Literally that, my ports, or at least my attempts to get Haxe 
 - [FNF' V-Slice 0.8.1 on Nintendo Switch!](https://github.com/FunkinNXTeam/Funkin)
 - And in a lot of other minor things in the [FNF'](https://github.com/FunkinCrew/Funkin) community.
 
+### Other projects where I have collaborated with something:
+- [gx2gl](https://github.com/ExpansionPak/gx2gl)
 
+----
 
 <img src="./NikoOneShotGif.gif" width="25%">
 <sup><sub>Nikooo :3</sub></sup>
