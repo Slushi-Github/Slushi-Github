@@ -28,13 +28,19 @@ Haxe on consoles: Literally that, my ports, or at least my attempts to get Haxe 
 - [HxCompileU](https://github.com/Slushi-Github/hxCompileU): As I love Haxe, a while ago I got a Nintendo Wii U after months of searching, and I wanted the console to learn how to do homebrew on it, but unfortunately, Haxe can't be used on that console, in the past apparently there was an [attempt](https://www.fortressofdoors.com/openfl-for-home-game-consoles), but not much more from there. This project of mine brings the possibility to use Haxe, on the Wii U in a free way!
   - [Leafy Engine](https://github.com/Slushi-Github/leafyEngine): Continuing with my interest in the Wii U, after a lot of time and difficulties, I have managed to create a 2D game engine inspired by [HaxeFlixel](https://haxeflixel.com), why [HaxeFlixel](https://haxeflixel.com)? Because it is the engine that I can understand the most and that I feel that the rest that is familiarized with Haxe can also understand, besides allowing the porting of things from [HaxeFlixel](https://haxeflixel.com) to this engine without major changes, like [LfSnake](https://github.com/Slushi-Github/LfSnake) (A port of [FlxSnake](https://haxeflixel.com/demos/FlxSnake) for that engine).
 - [hxcpp-cafe](https://github.com/Slushi-Github/hxcpp-cafe): Although for now it's just an experiment... This is my fork of HXCPP, based on the same code as [hxcpp-nx](https://github.com/Slushi-Github/hxcpp-nx) (my fork of HXCPP for Nintendo Switch), but for the Wii U. This platform is actually a lot more of a headache, heh...
+  - [lime-cafe](https://github.com/Slushi-Github/lime-cafe): Yes, this is a fork of Lime that lets us use Lime-based programs on the Wii U. It includes major modifications, and it’s really all thanks to [gx2gl](https://github.com/ExpansionPak/gx2gl), which is a translation layer from OpenGL 3.3 to GX2, the Wii U’s graphics API. Although beyond that, it also uses a custom backend for things like input instead of using what SDL2 provides in Lime, even though it’s the DevKitPro version of SDL2.
+  - [OpenFL-Cafe](https://github.com/Slushi-Github/openfl): A good modification of OpenFL to meet the requirements of [gx2gl](https://github.com/ExpansionPak/gx2gl), as well as those of the Wii U in general, such as the differences between little endian and big endian.
+  - [Flixel-Cafe](https://github.com/Slushi-Github/flixel): Just like OpenFL, a fork of Flixel that addresses certain issues on the Wii U that I couldn't resolve directly in OpenFL.
 
 **Nintendo Switch:**
 - [HaxeNXCompiler](https://github.com/Slushi-Github/HaxeNXCompiler): Is like HxCompileU but more complex and complete. This project is based on a [fork of HXCPP](https://github.com/Slushi-Github/hxcpp-nx) that can run on a Nintendo Switch, providing much greater stability and freedom than [Reflaxe/C++](https://github.com/SomeRanDev/reflaxe.CPP). HaxeNXCompiler ended up being so large that I had to switch to an XML project file, as used by [Lime](https://lime.openfl.org)/[OpenFL](https://www.openfl.org) projects, when I was rewriting the utility.
+  - hxcpp-nx: Its the fork of hxcpp to work on a Nintendo Switch using the 
   - [Vupx Engine](https://github.com/Slushi-Github/Vupx-Engine): This is the largest project I have done to date. It is my framework engine made with OpenGL 4.6 and Haxe for the Nintendo Switch, drawing a little from my experience with Leafy Engine, along with the advantage that this project used HXCPP instead of [Reflaxe/C++](https://github.com/SomeRanDev/reflaxe.CPP), which provides me with much more stability. Of course, it is still inspired by [HaxeFlixel](https://haxeflixel.com), but also with a slightly more personal structure.
   - [Lime-NX](https://github.com/Slushi-Github/lime-nx): What I wanted and tried so hard to achieve in the early days of HaxeNXCompiler, [Lime](https://lime.openfl.org) on the Switch using homebrew, and finally succeeded, you can now use your [OpenFL](https://www.openfl.org) projects and even [HaxeFlixel](https://haxeflixel.com) on the Nintendo Switch!
   - [Switch Funkin'](https://github.com/Slushi-Github/Switch-Funkin): Having successfully made [HaxeFlixel](https://haxeflixel.com) work on the Nintendo Switch, don't miss the opportunity to enjoy the real [Friday Night Funkin'](https://github.com/FunkinCrew/Funkin) experience on your console. This FNF' engine based on [Psych Engine 1.0.4](https://github.com/ShadowMario/FNF-PsychEngine) now allows you to enjoy the full [FNF'](https://github.com/FunkinCrew/Funkin) experience on your Switch, with support for mods, HScript, and even Lua!
   - [Flixel-Switch](https://github.com/Slushi-Github/flixel-switch): A small [HaxeFlixel](https://haxeflixel.com) library that incorporates some code from [Vupx Engine](https://github.com/Slushi-Github/Vupx-Engine), allowing you to use certain features of [hx_libnx](https://github.com/Slushi-Github/hx_libnx) to interact with the Nintendo Switch more easily from [HaxeFlixel](https://haxeflixel.com).
+  - [HxSwitchVideo](https://github.com/Slushi-Github/HxSwitchVideo): A library for playing video in [HaxeFlixel](https://haxeflixel.com) on the Nintendo Switch using [MPV](https://mpv.io), inspired by [hxvlc](https://github.com/MAJigsaw77/hxvlc), designed to keep code changes between this library and [hxvlc](https://github.com/MAJigsaw77/hxvlc) to a minimum.
+  - [Funkin-NX](https://github.com/Slushi-Github/funkin-nx): An [FNF' V-Slice](https://github.com/FunkinCrew/Funkin) 8.7.0 port for the Nintendo Switch!
  
 **Nintendo DS(i):**
 - [A Poor Imitiation DS](https://github.com/Slushi-Github/APoorImitiation-DS): This is a project where I tried to create a music player that would play the song ["A Poor Imitation"](https://youtu.be/2SZ-_pag1v0) by [S-Saph/S-Ame](https://www.youtube.com/@a-saphmusicofficial) from their album ["IGNORANT BLISS"](https://a-saph.bandcamp.com/album/ignorant-bliss) on a Nintendo DS. It's built using [BlocksDS](https://blocksds.skylyrac.net/) and uses [Reflaxe/C++](https://github.com/SomeRanDev/reflaxe.CPP) to run Haxe on it. It's really a pretty silly project, but it was fun.
@@ -45,14 +51,16 @@ Haxe on consoles: Literally that, my ports, or at least my attempts to get Haxe 
 
 ### Friday Night Funkin' projects where I have collaborated with something:
 - [SC Engine](https://github.com/EdwhakKB/SC-SP-ENGINE)
+- [Hitmans: The Annihilate and Destroy Project](https://github.com/EdwhakKB/HITMANS_A.D_PROJECT-FNF-Psych-Engine)
 - [ALE Psych](https://github.com/ALE-Psych-Crew/ALE-Psych)
 - [Plus Engine](https://github.com/Psych-Plus-Team/FNF-PlusEngine)
 - [VS. Camellia ALT](https://gamebanana.com/mods/413258)
 - [Chikn Nuggit: Fast Food Funk](https://gamebanana.com/mods/492619)
-- [Hitmans: The Annihilate and Destroy Project](https://github.com/EdwhakKB/HITMANS_A.D_PROJECT-FNF-Psych-Engine)
 - [No More Innocence - Irrational Cruelty](https://gamejolt.com/games/NoMoreInnocence/928433)
 - [FNF' V-Slice 0.8.1 on Nintendo Switch!](https://github.com/FunkinNXTeam/Funkin)
 - And in a lot of other minor things in the [FNF'](https://github.com/FunkinCrew/Funkin) community.
+
+
 
 <img src="./NikoOneShotGif.gif" width="25%">
 <sup><sub>Nikooo :3</sub></sup>
